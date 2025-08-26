@@ -1,0 +1,1338 @@
+{
+  "name": "MnYyIFRlYW0gUGxheSB+IEbEsXJsYXRhbiBLYWxlbGVyIGJ5IE5hbWFqdW5hcyBmcm9tIEhheE1hcHM=",
+  "width": 350,
+  "height": 350,
+  "cameraWidth": 0,
+  "cameraHeight": 0,
+  "maxViewWidth": 0,
+  "cameraFollow": "ball",
+  "spawnDistance": 270,
+  "redSpawnPoints": [
+    [
+      -241,
+      -233
+    ],
+    [
+      -238,
+      230
+    ]
+  ],
+  "blueSpawnPoints": [
+    [
+      243,
+      238
+    ],
+    [
+      237,
+      -250
+    ]
+  ],
+  "canBeStored": false,
+  "kickOffReset": "partial",
+  "bg": {
+    "color": "252525",
+    "height": 350,
+    "width": 350,
+    "cornerRadius": 18,
+    "kickOffRadius": 100,
+    "type": ""
+  },
+  "traits": {
+    "ballArea": {
+      "vis": false,
+      "bCoef": 1,
+      "cMask": [
+        "ball"
+      ]
+    },
+    "goalPost": {
+      "radius": 8,
+      "invMass": 0,
+      "bCoef": 0.5
+    },
+    "goalNet": {
+      "vis": true,
+      "bCoef": 0.1,
+      "cMask": [
+        "ball"
+      ]
+    },
+    "kickOffBarrier": {
+      "vis": false,
+      "bCoef": 0.1,
+      "cGroup": [
+        "redKO",
+        "blueKO"
+      ],
+      "cMask": [
+        "red",
+        "blue"
+      ]
+    }
+  },
+  "vertexes": [
+    {
+      "x": -327,
+      "y": 227,
+      "bCoef": 20,
+      "cMask": [
+        "c0"
+      ],
+      "cGroup": [
+        "wall"
+      ],
+      "trait": "goalNet",
+      "color": "6d0209"
+    },
+    {
+      "x": -213,
+      "y": 323,
+      "bCoef": 20,
+      "cMask": [
+        "ball",
+        "red",
+        "blue"
+      ],
+      "trait": "goalNet",
+      "color": "6d0209"
+    },
+    {
+      "x": 327,
+      "y": 227,
+      "bCoef": 20,
+      "cMask": [
+        "ball",
+        "red",
+        "blue"
+      ],
+      "trait": "goalNet",
+      "color": "004077"
+    },
+    {
+      "x": 213,
+      "y": 323,
+      "bCoef": 20,
+      "cMask": [
+        "ball",
+        "red",
+        "blue"
+      ],
+      "trait": "goalNet",
+      "color": "004077"
+    },
+    {
+      "x": -327,
+      "y": -227,
+      "bCoef": 20,
+      "cMask": [
+        "ball",
+        "red",
+        "blue"
+      ],
+      "trait": "goalNet",
+      "color": "840517"
+    },
+    {
+      "x": -213,
+      "y": -323,
+      "bCoef": 20,
+      "cMask": [
+        "ball",
+        "red",
+        "blue"
+      ],
+      "trait": "goalNet",
+      "color": "840517"
+    },
+    {
+      "x": 327,
+      "y": -227,
+      "bCoef": 20,
+      "cMask": [
+        "ball",
+        "red",
+        "blue"
+      ],
+      "trait": "goalNet",
+      "color": "004077"
+    },
+    {
+      "x": 213,
+      "y": -323,
+      "bCoef": 20,
+      "cMask": [
+        "ball",
+        "red",
+        "blue"
+      ],
+      "trait": "goalNet",
+      "color": "004077"
+    },
+    {
+      "x": -197,
+      "y": 327,
+      "bCoef": 1,
+      "cMask": [
+        "ball",
+        "red",
+        "blue"
+      ],
+      "trait": "goalNet"
+    },
+    {
+      "x": 195,
+      "y": 327,
+      "bCoef": 1,
+      "cMask": [
+        "ball",
+        "red",
+        "blue"
+      ],
+      "trait": "goalNet"
+    },
+    {
+      "x": -197,
+      "y": -327,
+      "bCoef": 1,
+      "cMask": [
+        "ball",
+        "red",
+        "blue"
+      ],
+      "trait": "goalNet"
+    },
+    {
+      "x": 195,
+      "y": -327,
+      "bCoef": 1,
+      "cMask": [
+        "ball",
+        "red",
+        "blue"
+      ],
+      "trait": "goalNet"
+    },
+    {
+      "x": 327,
+      "y": 209,
+      "bCoef": 1,
+      "cMask": [
+        "ball",
+        "red",
+        "blue"
+      ],
+      "trait": "goalNet"
+    },
+    {
+      "x": 327,
+      "y": -210,
+      "bCoef": 1,
+      "cMask": [
+        "ball",
+        "red",
+        "blue"
+      ],
+      "trait": "goalNet"
+    },
+    {
+      "x": -332,
+      "y": 209,
+      "bCoef": 1,
+      "cMask": [
+        "ball",
+        "red",
+        "blue"
+      ],
+      "trait": "goalNet"
+    },
+    {
+      "x": -332,
+      "y": -210,
+      "bCoef": 1,
+      "cMask": [
+        "ball",
+        "red",
+        "blue"
+      ],
+      "trait": "goalNet"
+    },
+    {
+      "x": -227,
+      "y": 314,
+      "bCoef": 0.1,
+      "cMask": [
+        "red",
+        "blue"
+      ],
+      "trait": "kickOffBarrier"
+    },
+    {
+      "x": 226,
+      "y": 319,
+      "bCoef": 3,
+      "cMask": [
+        "c0"
+      ],
+      "cGroup": [
+        "wall"
+      ],
+      "trait": "goalPost",
+      "color": "3a3a3c"
+    },
+    {
+      "x": 316,
+      "y": 235,
+      "bCoef": 3,
+      "cMask": [
+        "c0"
+      ],
+      "cGroup": [
+        "wall"
+      ],
+      "trait": "goalPost",
+      "color": "3a3a3c"
+    },
+    {
+      "x": -223,
+      "y": 325,
+      "bCoef": 3,
+      "cMask": [
+        "c0"
+      ],
+      "cGroup": [
+        "wall"
+      ],
+      "trait": "goalPost",
+      "color": "3a3a3c"
+    },
+    {
+      "x": -224,
+      "y": -318,
+      "cMask": [
+        "c0"
+      ],
+      "cGroup": [
+        "wall"
+      ],
+      "color": "3a3a3c"
+    },
+    {
+      "x": -318,
+      "y": -233,
+      "cMask": [
+        "c0"
+      ],
+      "cGroup": [
+        "wall"
+      ],
+      "color": "3a3a3c"
+    },
+    {
+      "x": 225,
+      "y": -322,
+      "cMask": [
+        "c0"
+      ],
+      "cGroup": [
+        "wall"
+      ],
+      "color": "3a3a3c"
+    },
+    {
+      "x": 309,
+      "y": -235,
+      "cMask": [
+        "c0"
+      ],
+      "cGroup": [
+        "wall"
+      ],
+      "color": "3a3a3c"
+    },
+    {
+      "x": 0,
+      "y": 75.95592593884027,
+      "bCoef": 0.1,
+      "cMask": [
+        "red",
+        "blue"
+      ],
+      "cGroup": [
+        "redKO",
+        "blueKO"
+      ],
+      "color": "333333"
+    },
+    {
+      "x": 0,
+      "y": -75.95592593884027,
+      "bCoef": 0.1,
+      "cMask": [
+        "red",
+        "blue"
+      ],
+      "cGroup": [
+        "redKO",
+        "blueKO"
+      ],
+      "color": "333333"
+    },
+    {
+      "x": 0,
+      "y": -326.8677778165208,
+      "bCoef": 0.1,
+      "cMask": [
+        "red",
+        "blue"
+      ],
+      "cGroup": [
+        "redKO",
+        "blueKO"
+      ],
+      "color": "333333",
+      "_data": {
+        "mirror": {}
+      },
+      "_selected": "segment"
+    },
+    {
+      "x": 0,
+      "y": -77.85482408731127,
+      "bCoef": 0.1,
+      "cMask": [
+        "red",
+        "blue"
+      ],
+      "cGroup": [
+        "redKO",
+        "blueKO"
+      ],
+      "color": "333333",
+      "_data": {
+        "mirror": {}
+      },
+      "_selected": "segment"
+    },
+    {
+      "x": 0,
+      "y": 77.85482408731127,
+      "bCoef": 0.1,
+      "cMask": [
+        "red",
+        "blue"
+      ],
+      "cGroup": [
+        "redKO",
+        "blueKO"
+      ],
+      "color": "333333"
+    },
+    {
+      "x": 0,
+      "y": -77.85482408731127,
+      "bCoef": 0.1,
+      "cMask": [
+        "red",
+        "blue"
+      ],
+      "cGroup": [
+        "redKO",
+        "blueKO"
+      ],
+      "color": "333333"
+    },
+    {
+      "x": 0,
+      "y": 77.85482408731127,
+      "bCoef": 0.1,
+      "cMask": [
+        "red",
+        "blue"
+      ],
+      "cGroup": [
+        "redKO",
+        "blueKO"
+      ],
+      "color": "333333"
+    },
+    {
+      "x": 0,
+      "y": 77.85482408731127,
+      "bCoef": 0.1,
+      "cMask": [
+        "red",
+        "blue"
+      ],
+      "cGroup": [
+        "redKO",
+        "blueKO"
+      ],
+      "color": "333333"
+    },
+    {
+      "x": 0,
+      "y": -77.85482408731127,
+      "bCoef": 0.1,
+      "cMask": [
+        "red",
+        "blue"
+      ],
+      "cGroup": [
+        "redKO",
+        "blueKO"
+      ],
+      "color": "333333"
+    },
+    {
+      "x": 0,
+      "y": 77.85482408731127,
+      "bCoef": 0.1,
+      "cMask": [
+        "red",
+        "blue"
+      ],
+      "cGroup": [
+        "redKO",
+        "blueKO"
+      ],
+      "color": "333333"
+    },
+    {
+      "x": 0,
+      "y": -77.85482408731127,
+      "bCoef": 0.1,
+      "cMask": [
+        "red",
+        "blue"
+      ],
+      "cGroup": [
+        "redKO",
+        "blueKO"
+      ],
+      "color": "333333"
+    },
+    {
+      "x": 0,
+      "y": 77.85482408731127,
+      "bCoef": 0.1,
+      "cMask": [],
+      "color": "333333"
+    },
+    {
+      "x": 0,
+      "y": 75.95592593884027,
+      "bCoef": 0.1,
+      "cMask": [
+        "red",
+        "blue"
+      ],
+      "cGroup": [
+        "redKO",
+        "blueKO"
+      ],
+      "color": "333333",
+      "curve": 0
+    },
+    {
+      "x": -17.274192568137636,
+      "y": 45.53416242486071,
+      "cMask": [
+        "wall"
+      ],
+      "cGroup": [
+        "all"
+      ],
+      "color": "333333"
+    },
+    {
+      "x": -17.274192568137636,
+      "y": -54.8411190622578,
+      "cMask": [
+        "wall"
+      ],
+      "cGroup": [
+        "all"
+      ],
+      "color": "333333"
+    },
+    {
+      "x": 40.41310962069596,
+      "y": 37.02778263781673,
+      "cMask": [
+        "wall"
+      ],
+      "cGroup": [
+        "all"
+      ],
+      "color": "333333"
+    },
+    {
+      "x": 40.41310962069596,
+      "y": -39.52963544557895,
+      "cMask": [
+        "wall"
+      ],
+      "cGroup": [
+        "all"
+      ],
+      "color": "333333"
+    },
+    {
+      "x": 21.1840088910848,
+      "y": -39.52963544557895,
+      "cMask": [
+        "wall"
+      ],
+      "cGroup": [
+        "all"
+      ],
+      "color": "333333"
+    },
+    {
+      "x": 21.1840088910848,
+      "y": -8.906668212220552,
+      "cMask": [
+        "wall"
+      ],
+      "cGroup": [
+        "all"
+      ],
+      "color": "333333"
+    },
+    {
+      "x": -10.063279794533571,
+      "y": 8.1060913618673,
+      "cMask": [
+        "wall"
+      ],
+      "cGroup": [
+        "all"
+      ],
+      "color": "333333"
+    },
+    {
+      "x": 21.1840088910848,
+      "y": 60.845646041539794,
+      "cMask": [
+        "wall"
+      ],
+      "cGroup": [
+        "all"
+      ],
+      "color": "333333"
+    },
+    {
+      "x": 21.1840088910848,
+      "y": 23.417574978546327,
+      "cMask": [
+        "wall"
+      ],
+      "cGroup": [
+        "all"
+      ],
+      "color": "333333"
+    },
+    {
+      "x": -36.503293297748996,
+      "y": 45.53416242486071,
+      "cMask": [
+        "wall"
+      ],
+      "cGroup": [
+        "all"
+      ],
+      "color": "333333"
+    },
+    {
+      "x": -36.503293297748996,
+      "y": -31.02325565853488,
+      "cMask": [
+        "wall"
+      ],
+      "cGroup": [
+        "all"
+      ],
+      "color": "333333"
+    },
+    {
+      "x": -24.485105341741928,
+      "y": -12.309220127038145,
+      "cMask": [
+        "wall"
+      ],
+      "cGroup": [
+        "all"
+      ],
+      "color": "333333"
+    },
+    {
+      "x": 0,
+      "y": -89.06153438079849,
+      "cMask": [
+        "wall"
+      ],
+      "cGroup": [
+        "all"
+      ],
+      "curve": 180,
+      "color": "333333"
+    },
+    {
+      "x": 0,
+      "y": 87.06606136008034,
+      "cMask": [
+        "wall"
+      ],
+      "cGroup": [
+        "all"
+      ],
+      "curve": 180,
+      "color": "333333"
+    },
+    {
+      "x": 0,
+      "y": 77.1322221834792,
+      "bCoef": 0.1,
+      "cMask": [
+        "red",
+        "blue"
+      ],
+      "cGroup": [
+        "redKO",
+        "blueKO"
+      ],
+      "color": "333333"
+    },
+    {
+      "x": 0,
+      "y": 326.1451759126887,
+      "bCoef": 0.1,
+      "cMask": [
+        "red",
+        "blue"
+      ],
+      "cGroup": [
+        "redKO",
+        "blueKO"
+      ],
+      "color": "333333"
+    },
+    {
+      "x": 76,
+      "y": -7,
+      "bCoef": 0.1,
+      "cMask": [
+        "red",
+        "blue"
+      ],
+      "cGroup": [
+        "redKO",
+        "blueKO"
+      ],
+      "color": "333333"
+    },
+    {
+      "x": 326,
+      "y": -7,
+      "bCoef": 0.1,
+      "cMask": [
+        "red",
+        "blue"
+      ],
+      "cGroup": [
+        "redKO",
+        "blueKO"
+      ],
+      "color": "333333"
+    },
+    {
+      "x": -329,
+      "y": -7,
+      "bCoef": 0.1,
+      "cMask": [
+        "red",
+        "blue"
+      ],
+      "cGroup": [
+        "redKO",
+        "blueKO"
+      ],
+      "color": "333333"
+    },
+    {
+      "x": -76,
+      "y": -7,
+      "bCoef": 0.1,
+      "cMask": [
+        "red",
+        "blue"
+      ],
+      "cGroup": [
+        "redKO",
+        "blueKO"
+      ],
+      "color": "333333"
+    }
+  ],
+  "segments": [
+    {
+      "v0": 0,
+      "v1": 1,
+      "curve": -97.74414766416275,
+      "color": "6d0209",
+      "bCoef": 20,
+      "cMask": [
+        "ball",
+        "red",
+        "blue"
+      ],
+      "trait": "goalNet"
+    },
+    {
+      "v0": 2,
+      "v1": 3,
+      "curve": 99.23270418710204,
+      "color": "004077",
+      "bCoef": 20,
+      "cMask": [
+        "ball",
+        "red",
+        "blue"
+      ],
+      "trait": "goalNet"
+    },
+    {
+      "v0": 4,
+      "v1": 5,
+      "curve": 82.31810194932606,
+      "color": "840517",
+      "bCoef": 20,
+      "cMask": [
+        "ball",
+        "red",
+        "blue"
+      ],
+      "trait": "goalNet"
+    },
+    {
+      "v0": 6,
+      "v1": 7,
+      "curve": -95.51821531724056,
+      "color": "004077",
+      "bCoef": 20,
+      "cMask": [
+        "ball",
+        "red",
+        "blue"
+      ],
+      "trait": "goalNet"
+    },
+    {
+      "v0": 8,
+      "v1": 9,
+      "bCoef": 1,
+      "cMask": [
+        "ball",
+        "red",
+        "blue"
+      ],
+      "trait": "goalNet",
+      "y": 327
+    },
+    {
+      "v0": 10,
+      "v1": 11,
+      "bCoef": 1,
+      "cMask": [
+        "ball",
+        "red",
+        "blue"
+      ],
+      "trait": "goalNet",
+      "y": -327
+    },
+    {
+      "v0": 12,
+      "v1": 13,
+      "bCoef": 1,
+      "cMask": [
+        "ball",
+        "red",
+        "blue"
+      ],
+      "trait": "goalNet",
+      "x": 327
+    },
+    {
+      "v0": 14,
+      "v1": 15,
+      "bCoef": 1,
+      "cMask": [
+        "ball",
+        "red",
+        "blue"
+      ],
+      "trait": "goalNet",
+      "x": -332
+    },
+    {
+      "v0": 17,
+      "v1": 18,
+      "vis": true,
+      "color": "3a3a3c",
+      "bCoef": 3,
+      "cMask": [
+        "c0"
+      ],
+      "cGroup": [
+        "wall"
+      ],
+      "trait": "goalPost"
+    },
+    {
+      "v0": 0,
+      "v1": 19,
+      "vis": true,
+      "color": "3a3a3c",
+      "bCoef": 3,
+      "cMask": [
+        "c0"
+      ],
+      "cGroup": [
+        "wall"
+      ],
+      "trait": "goalPost"
+    },
+    {
+      "v0": 20,
+      "v1": 21,
+      "vis": true,
+      "color": "3a3a3c",
+      "cMask": [
+        "c0"
+      ],
+      "cGroup": [
+        "wall"
+      ]
+    },
+    {
+      "v0": 22,
+      "v1": 23,
+      "vis": true,
+      "color": "3a3a3c",
+      "cMask": [
+        "c0"
+      ],
+      "cGroup": [
+        "wall"
+      ]
+    },
+    {
+      "v0": 24,
+      "v1": 25,
+      "curve": 180,
+      "color": "333333",
+      "bCoef": 0.1,
+      "cMask": [
+        "red",
+        "blue"
+      ],
+      "cGroup": [
+        "blueKO"
+      ]
+    },
+    {
+      "v0": 25,
+      "v1": 24,
+      "curve": 180,
+      "color": "333333",
+      "bCoef": 0.1,
+      "cMask": [
+        "red",
+        "blue"
+      ],
+      "cGroup": [
+        "redKO"
+      ]
+    },
+    {
+      "v0": 26,
+      "v1": 27,
+      "color": "333333",
+      "bCoef": 0.1,
+      "cMask": [
+        "red",
+        "blue"
+      ],
+      "cGroup": [
+        "redKO",
+        "blueKO"
+      ],
+      "_data": {
+        "mirror": {},
+        "arc": {
+          "a": [
+            0,
+            -326.8677778165208
+          ],
+          "b": [
+            0,
+            -77.85482408731127
+          ],
+          "radius": null,
+          "center": [
+            null,
+            null
+          ],
+          "from": null,
+          "to": null
+        }
+      },
+      "_selected": true
+    },
+    {
+      "v0": 37,
+      "v1": 38,
+      "color": "333333",
+      "cMask": [
+        "wall"
+      ],
+      "cGroup": [
+        "all"
+      ]
+    },
+    {
+      "v0": 38,
+      "v1": 39,
+      "color": "333333",
+      "cMask": [
+        "wall"
+      ],
+      "cGroup": [
+        "all"
+      ]
+    },
+    {
+      "v0": 39,
+      "v1": 40,
+      "color": "333333",
+      "cMask": [
+        "wall"
+      ],
+      "cGroup": [
+        "all"
+      ]
+    },
+    {
+      "v0": 40,
+      "v1": 41,
+      "color": "333333",
+      "cMask": [
+        "wall"
+      ],
+      "cGroup": [
+        "all"
+      ]
+    },
+    {
+      "v0": 41,
+      "v1": 42,
+      "color": "333333",
+      "cMask": [
+        "wall"
+      ],
+      "cGroup": [
+        "all"
+      ]
+    },
+    {
+      "v0": 43,
+      "v1": 44,
+      "color": "333333",
+      "cMask": [
+        "wall"
+      ],
+      "cGroup": [
+        "all"
+      ]
+    },
+    {
+      "v0": 44,
+      "v1": 45,
+      "color": "333333",
+      "cMask": [
+        "wall"
+      ],
+      "cGroup": [
+        "all"
+      ]
+    },
+    {
+      "v0": 37,
+      "v1": 46,
+      "color": "333333",
+      "cMask": [
+        "wall"
+      ],
+      "cGroup": [
+        "all"
+      ]
+    },
+    {
+      "v0": 46,
+      "v1": 47,
+      "color": "333333",
+      "cMask": [
+        "wall"
+      ],
+      "cGroup": [
+        "all"
+      ]
+    },
+    {
+      "v0": 47,
+      "v1": 48,
+      "color": "333333",
+      "cMask": [
+        "wall"
+      ],
+      "cGroup": [
+        "all"
+      ]
+    },
+    {
+      "v0": 49,
+      "v1": 50,
+      "curve": 180.00000000000023,
+      "color": "333333",
+      "cMask": [
+        "wall"
+      ],
+      "cGroup": [
+        "all"
+      ]
+    },
+    {
+      "v0": 50,
+      "v1": 49,
+      "curve": 180.00000000000023,
+      "color": "333333",
+      "cMask": [
+        "wall"
+      ],
+      "cGroup": [
+        "all"
+      ]
+    },
+    {
+      "v0": 51,
+      "v1": 52,
+      "color": "333333",
+      "bCoef": 0.1,
+      "cMask": [
+        "red",
+        "blue"
+      ],
+      "cGroup": [
+        "redKO",
+        "blueKO"
+      ],
+      "x": 0
+    },
+    {
+      "v0": 53,
+      "v1": 54,
+      "color": "333333",
+      "bCoef": 0.1,
+      "cMask": [
+        "red",
+        "blue"
+      ],
+      "cGroup": [
+        "redKO",
+        "blueKO"
+      ]
+    },
+    {
+      "v0": 55,
+      "v1": 56,
+      "color": "333333",
+      "bCoef": 0.1,
+      "cMask": [
+        "red",
+        "blue"
+      ],
+      "cGroup": [
+        "redKO",
+        "blueKO"
+      ],
+      "y": -7
+    }
+  ],
+  "goals": [
+    {
+      "p0": [
+        231,
+        -314
+      ],
+      "p1": [
+        307,
+        -234
+      ],
+      "team": "blue"
+    },
+    {
+      "p0": [
+        -230,
+        -313
+      ],
+      "p1": [
+        -314,
+        -236
+      ],
+      "team": "red"
+    },
+    {
+      "p0": [
+        -314,
+        238
+      ],
+      "p1": [
+        -230,
+        318
+      ],
+      "team": "red"
+    },
+    {
+      "p0": [
+        230,
+        314
+      ],
+      "p1": [
+        313,
+        236
+      ],
+      "team": "blue"
+    }
+  ],
+  "discs": [
+    {
+      "radius": 18.027756377319946,
+      "pos": [
+        -327,
+        226
+      ],
+      "color": "6d0209",
+      "bCoef": 3,
+      "trait": "goalPost"
+    },
+    {
+      "radius": 18.027756377319946,
+      "pos": [
+        327,
+        226
+      ],
+      "color": "004077",
+      "bCoef": 3,
+      "trait": "goalPost"
+    },
+    {
+      "radius": 18.027756377319946,
+      "pos": [
+        -327,
+        -226
+      ],
+      "color": "6d0209",
+      "bCoef": 3,
+      "trait": "goalPost"
+    },
+    {
+      "radius": 18.027756377319946,
+      "pos": [
+        319,
+        -225
+      ],
+      "color": "004077",
+      "bCoef": 3,
+      "trait": "goalPost"
+    },
+    {
+      "radius": 18.027756377319946,
+      "pos": [
+        -213,
+        322
+      ],
+      "color": "6d0209",
+      "bCoef": 3,
+      "trait": "goalPost"
+    },
+    {
+      "radius": 18.027756377319946,
+      "pos": [
+        213,
+        322
+      ],
+      "color": "004077",
+      "bCoef": 3,
+      "trait": "goalPost"
+    },
+    {
+      "radius": 18.027756377319946,
+      "pos": [
+        -216,
+        -322
+      ],
+      "color": "6d0209",
+      "bCoef": 3,
+      "trait": "goalPost"
+    },
+    {
+      "radius": 18.027756377319946,
+      "pos": [
+        213,
+        -322
+      ],
+      "color": "004077",
+      "bCoef": 3,
+      "trait": "goalPost"
+    }
+  ],
+  "planes": [],
+  "joints": [],
+  "playerPhysics": {
+    "radius": 15,
+    "bCoef": 0.4,
+    "invMass": 0.5,
+    "damping": 0.96,
+    "cGroup": [
+      "red",
+      "blue"
+    ],
+    "acceleration": 0.11,
+    "gravity": [
+      0,
+      0
+    ],
+    "kickingAcceleration": 0.07,
+    "kickingDamping": 0.96,
+    "kickStrength": 5,
+    "kickback": 0
+  },
+  "ballPhysics": {
+    "radius": 9,
+    "bCoef": 0.5,
+    "cMask": [
+      "all"
+    ],
+    "damping": 0.99,
+    "invMass": 1.2,
+    "gravity": [
+      0,
+      0
+    ],
+    "color": "eab676",
+    "cGroup": [
+      "ball"
+    ]
+  }
+}
